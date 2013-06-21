@@ -12,15 +12,15 @@ if you do a listing of /dev folder you may see only ttyO0 (it is OH-0)
 
 So, we need to enable other UART ports if we want to work with them
 
-/dev/ttyO1
+UART1 - /dev/ttyO1
 P9_24	0×184	UART1_TXD	uart1_txd
 P9_26	0×180	UART1_RXD	uart1_rxd
 
-/dev/ttyO2
+UART2 - /dev/ttyO2
 P9_21	0×154	UART2_TXD	spi0_d0
 P9_22	0×150	UART2_RXD	spi0_sclk
 
-/dev/ttyO4
+UART4 - /dev/ttyO4
 P9_11	0×70	UART4_RXD	gpmc_wait0
 P9_13	0×74	UART4_TXD	gpmc_wpn
 
