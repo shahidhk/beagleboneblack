@@ -4,3 +4,6 @@
 [submodule "GPIO/adafruit-beaglebone-io-python"]
 	path = GPIO/adafruit-beaglebone-io-python
 	url = git://github.com/adafruit/adafruit-beaglebone-io-python.git
+[submodule "UART/pyserial"]
+	path = UART/pyserial
+	url = https://github.com/bewest/pyserial.git
