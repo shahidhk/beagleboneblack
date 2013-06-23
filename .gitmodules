@@ -1,3 +1,6 @@
 [submodule "GPIO/PyBBIO"]
 	path = GPIO/PyBBIO
 	url = https://github.com/alexanderhiam/PyBBIO.git
+[submodule "GPIO/adafruit-beaglebone-io-python"]
+	path = GPIO/adafruit-beaglebone-io-python
+	url = git://github.com/adafruit/adafruit-beaglebone-io-python.git
