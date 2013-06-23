@@ -28,11 +28,12 @@ inorder to enable these ports you need to run the following command
 
 echo BB-UART1 > /sys/devices/bone_capemgr.9/slots
 
+run the script as sh enableUART.sh 1
+replace 1 with (1, 2, or 4) the serial prt you want to enable
+
 Replace 2 with the number of UART port you want to enable: 1, 2 or 4
 Note: this needs to be done on every reboot
 Use os.system(echo BB-UART2 > /sys/devices/bone_capemgr.9/slots) in your python program to do this
 import os to use the above command
-
-5 didn't work out, will work on it later
 
 Use pyserial library to connect to serial port
