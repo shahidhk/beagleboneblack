@@ -1,0 +1,3 @@
+[submodule "GPIO/PyBBIO"]
+	path = GPIO/PyBBIO
+	url = https://github.com/alexanderhiam/PyBBIO.git
