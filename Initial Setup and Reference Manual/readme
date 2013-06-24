@@ -67,7 +67,7 @@ Raspberry Pi
 
 Add  this line to /etc/apt/apt.conf
 
-Acquire::http::proxy "http://ed12b031:OmegA1!3#@hproxy.iitm.ac.in:3128/";
+Acquire::http::proxy "http://<rollNo>:<password>@hproxy.iitm.ac.in:3128/";
 
 =========================================================================================
 
